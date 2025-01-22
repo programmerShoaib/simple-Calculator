@@ -1,4 +1,26 @@
-<p>hello repo</p>
-
-
-<h1>Calculator</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="simCal.css">
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <div class="container">
+        <input class="num" type="number" id="num1">
+        <input class="num" type="number" id="num2">
+    </div>
+    <div class="container">
+        <button id="add" class="operator">+</button>
+        <button id="sub" class="operator">-</button>
+        <button id="mul" class="operator">*</button>
+        <button id="div" class="operator">/</button>
+    </div>
+    <div class="container">
+        <p class="result">Result = </p><p id="result" class="result"> </p>
+    </div>
+    <script src="simCal.js"></script>
+</body>
+</html>
